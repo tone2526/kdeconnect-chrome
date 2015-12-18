@@ -18,6 +18,7 @@ Having said that, i dont expect this tool to be developed any further as it shou
 
 Why install a package and not using kdeconnect-cli? Here's why:
 > $ kdeconnect-cli --device android --ping
+
 > QDBusConnection: error: could not send message to service "org.kde.kdeconnect" path "/modules/kdeconnect/devices/android/ping" interface "org.kde.kdeconnect.device.ping" member "sendPing": Invalid object path: /modules/kdeconnect/devices/android/ping
 Google and irc couldnt help, glad if you can.
 
