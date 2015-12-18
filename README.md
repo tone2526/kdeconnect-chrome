@@ -3,6 +3,7 @@
 Send url from Chrome to KDEConnect
 
 Open source at https://github.com/phpmoli/kdeconnect-chrome
+
 In store at https://chrome.google.com/webstore/detail/jniioigoopmlbeceondbcpgnbimeghhj
 
 Permissions required:
@@ -24,6 +25,5 @@ Why install a package and not using kdeconnect-cli? Here's why:
 > QDBusConnection: error: could not send message to service "org.kde.kdeconnect" path "/modules/kdeconnect/devices/android/ping" interface "org.kde.kdeconnect.device.ping" member "sendPing": Invalid object path: /modules/kdeconnect/devices/android/ping
 
 Google and irc couldnt help, glad if you can.
-
 
 keywords: push, web page, tab, current, active, kde connect, android, mobile phone
