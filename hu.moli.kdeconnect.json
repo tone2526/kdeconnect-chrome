@@ -1,0 +1,7 @@
+{
+"name": "hu.moli.kdeconnect",
+"allowed_origins": [ "chrome-extension://banpljbafokccklpmcjmgfeoiefkoale/" ],
+"type": "stdio",
+"path": "$HOME/.config/google-chrome/NativeMessagingHosts/hu.moli.kdeconnect.py",
+"description": "kdeconnect"
+}

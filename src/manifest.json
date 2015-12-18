@@ -1,0 +1,13 @@
+{
+"manifest_version": 2,
+"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwtBZIsUctbZ9UYbIhZg/eRwJXgLRDpVA/Hm0+c5uFEaooJORSyUcZSXDcp1WoemXQrWNt4GEiOoWbK8tPQzMeFfhkdHadJMoJERsCynJJuukeSzmiLIruZIFkhYH7QbPxXyFqmueqOJsbcSUwYHae17X8uDnkcYgavRVQ7Ocic1qxePu1zAEcW6WgU/i0junvCIPoOYrPb3zB7W+a5qO8ttSlUtay7ZKrA9TDolykI7cZZjxwCR7zeLa9KtFEcLljC+DVHRAJ5xZmBnJewOxozSOUqwzDswuRvu6Xtzfc54SxSjLP8G77P+zmjlkhNx/kJSXghkMP2t6kcDCJ0G2BwIDAQAB",
+"version": "0.1",
+"version_name": "alpha",
+"permissions": [ "tabs", "nativeMessaging" ],
+"background": { "persistent": false, "scripts": [ "hu.moli.kdeconnect.js" ] },
+"page_action": { },
+"name": "kdeconnect",
+"homepage_url": "https://github.com/phpmoli/kdeconnect-chrome",
+"author": "moli.hu",
+"icons": { "128": "hu.moli.kdeconnect.png" }
+}
