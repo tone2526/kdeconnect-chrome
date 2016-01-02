@@ -1,6 +1,6 @@
 # kdeconnect-chrome
 
-Send url from Chrome to KDEConnect
+Send or push url of a web page from Chrome of your current active tab to KDE Connect on your android mobile phone
 
 Open source at https://github.com/phpmoli/kdeconnect-chrome
 
