@@ -1,6 +1,6 @@
 # kdeconnect-chrome
 
-Send or push url of a web page from Chrome of your current active tab to KDE Connect on your android mobile phone
+Send or push url of a web page of your current active tab in desktop Chrome to KDE Connect on your android mobile phone
 
 Open source at https://github.com/phpmoli/kdeconnect-chrome
 
@@ -25,5 +25,3 @@ Why install a package and not using kdeconnect-cli? Here's why:
 > QDBusConnection: error: could not send message to service "org.kde.kdeconnect" path "/modules/kdeconnect/devices/android/ping" interface "org.kde.kdeconnect.device.ping" member "sendPing": Invalid object path: /modules/kdeconnect/devices/android/ping
 
 Google and irc couldnt help, glad if you can.
-
-keywords: push, web page, tab, current, active, kde connect, android, mobile phone
