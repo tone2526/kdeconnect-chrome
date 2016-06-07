@@ -16,7 +16,7 @@ The open source code has only 4 lines of actual code and can be reviewed under a
 
 This is not my game, this is a must for Chrome Native Messaging, that needs manual install to prevent malicious extensions which can execute anything on your system. And since you are going on github, you should read the source to check the code is benevolent, so anyway its a win.
 
-My first Chrome extension, in alpha stage, without error handling. Written for Debian + Chrome only, feel free to include support for BSD or Vivaldi, the source is open.
+My first Chrome extension, in beta stage, without error handling. Written for Debian + Chrome only, feel free to include support for BSD or Vivaldi, the source is open.
 Having said that, i dont see this tool to be developed any further as it should be written using native code and not by using a system call. I chose my way because it was the fastest. Inspired by https://kamikazow.wordpress.com/2014/11/22/send-firefox-tabs-to-your-phone-via-kde-connect/
 
 Why install a package and not using kdeconnect-cli? Here's why:
