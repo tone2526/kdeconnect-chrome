@@ -20,8 +20,12 @@ My first Chrome extension, in beta stage, without error handling. Written for De
 Having said that, i dont see this tool to be developed any further as it should be written using native code and not by using a system call. I chose my way because it was the fastest. Inspired by https://kamikazow.wordpress.com/2014/11/22/send-firefox-tabs-to-your-phone-via-kde-connect/
 
 Why install a package and not using kdeconnect-cli? Here's why:
-> $ kdeconnect-cli --device android --ping
-
-> QDBusConnection: error: could not send message to service "org.kde.kdeconnect" path "/modules/kdeconnect/devices/android/ping" interface "org.kde.kdeconnect.device.ping" member "sendPing": Invalid object path: /modules/kdeconnect/devices/android/ping
-
-Google and irc couldnt help, glad if you can.
+```
+$ kdeconnect-cli --list-devices
+- myandroid: bc61836a282b2b7e (paired and reachable)
+1 devices found
+$ kdeconnect-cli --device bc61836a282b2b7e --ping ; echo $?
+0
+$ kdeconnect-cli --device bc61836a282b2b7f --ping ; echo $?
+0
+```
