@@ -28,8 +28,5 @@ $ kdeconnect-cli --device bc61836a282b2b7e --ping ; echo $?
 $ kdeconnect-cli --device bc61836a282b2b7f --ping ; echo $?
 0
 ```
-<<<<<<< HEAD
 
 version 0.3 does not need All tabs permission anymore, as since https://github.com/phpmoli/kdeconnect-chrome/issues/1 we were not using it anyway.
-=======
->>>>>>> 2d539da3e16ce4297af0c2126d0c520a51ae2a1b
